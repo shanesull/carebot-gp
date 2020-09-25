@@ -13,10 +13,10 @@ class CareBot {
       this.practice = data.practice
     }
     
-    this.index =  'https://chats.landbot.io/v2/H-701825-RGYXBY24Q19UTZWI/index.html?practice='+this.practice+'&email='+this.email
+    this.index =  'https://chats.landbot.io/v2/H-700085-NTWCJYM3ANRTJ41U/index.html?practice='+this.practice+'&email='+this.email
   
     this.loadLibray = function(index) {
-      $.ajax({
+      jQuery.ajax({
         url: "https://static.landbot.io/landbot-widget/landbot-widget-1.0.0.js",
         dataType: "script",
         async: false,           // <-- This is the key
