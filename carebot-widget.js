@@ -28,8 +28,8 @@ class CareBot {
             });
             myLandbot.on('landbot-load', function() {
               myLandbot.sendProactive({
-                "message": "Please click here to use our COVID Assessment System",
-                "author": "CareBot",
+                "message": "For those with symptoms or close contacts of a confirmed case of COVID-19, please click here.",
+                "author": "Online COVID Assessment",
                 "avatar": "https://carebot-gp.s3-eu-west-1.amazonaws.com/mycorkgp/download.jpeg",
                 "extra": {
                 "hide_textbox": true
